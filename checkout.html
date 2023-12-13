@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Glitch&family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- -----------  -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="@media.css" />
+    <title>Checkout</title>
+  </head>
+  <section class="header-products">
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger-menu"
+          ><i class="fa-solid fa-bars fa-2x"></i
+        ></label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productsPage.html">Games List</a></li>
+          <li><a href="AboutUs&Contact.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+  <body>
+    <main>
+      <h2 id="product-details-h1">
+        Your Cart <i class="fa-solid fa-basket-shopping"></i>
+      </h2>
+      <hr />
+      <div class="shopping-cart">
+        <div class="product-container">
+          <div class="product-description-in-cart-img">
+            <img
+              src="images/game covers/GameHub_covers9.jpg"
+              alt="game cover"
+            />
+          </div>
+          <div class="product-in-desciption">
+            <h2>Cyberpunk</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+              error omnis tempore nulla sit, similique asperiores non. Maxime
+              officia, asperiores natus eveniet tenetur aliquam iusto.
+            </p>
+            <h3><strong>Price: 420 NOK</strong></h3>
+            <i class="fa-regular fa-trash-can fa-lg"></i>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-description-in-cart-img">
+            <img
+              src="images/game covers/GameHub_covers3.jpg"
+              alt="game cover"
+            />
+          </div>
+          <div class="product-in-desciption">
+            <h2>Assassin</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+              error omnis tempore nulla sit, similique asperiores non.
+            </p>
+            <h3><strong>Price: 520 NOK</strong></h3>
+            <i class="fa-regular fa-trash-can fa-lg"></i>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="product-description-in-cart-img">
+            <img
+              src="images/game covers/GameHub_covers4.jpg"
+              alt="game cover"
+            />
+          </div>
+          <div class="product-in-desciption">
+            <h2>Furious</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+              error omnis tempore nulla sit, similique asperiores non. Maxime
+              officia, asperiores natus.
+            </p>
+            <h3><strong>Price: 480 NOK</strong></h3>
+            <i class="fa-regular fa-trash-can fa-lg"></i>
+          </div>
+        </div>
+      </div>
+      <section class="cashIn">
+        <div class="checkout-form">
+          <h2>Payment Information</h2>
+          <hr class="payment-info-hr" />
+          <form>
+            <div class="checkout-form-group">
+              <label for="cardNumber">Card Number</label>
+              <input type="text" id="cardNumber" name="cardNumber" />
+            </div>
+
+            <div class="checkout-form-group">
+              <label for="cardName">Name on Card</label>
+              <input type="text" id="cardName" name="cardName" />
+            </div>
+
+            <div class="checkout-form-group">
+              <label for="expiryDate">Expiry Date</label>
+              <input type="text" id="expiryDate" name="expiryDate" />
+            </div>
+
+            <div class="checkout-form-group">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" />
+            </div>
+
+            <div class="checkout-form-group">
+              <label for="billingAddress">Billing Address</label>
+              <input type="text" id="billingAddress" name="billingAddress" />
+            </div>
+
+            <div class="payment-methods">
+              <label>Payment Method:</label>
+              <div>
+                <input
+                  type="radio"
+                  id="creditCard"
+                  name="paymentMethod"
+                  value="Credit Card"
+                  checked
+                />
+                <label for="creditCard">Credit Card</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="paypal"
+                  name="paymentMethod"
+                  value="PayPal"
+                />
+                <label for="paypal">PayPal</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="crypto"
+                  name="paymentMethod"
+                  value="Cryptocurrency"
+                />
+                <label for="crypto">Cryptocurrency</label>
+              </div>
+            </div>
+            <div class="checkout-payment-last-info">
+              <hr class="payment-info-hr" />
+              <p>Cyberpunk 420 Nok</p>
+              <p>Black 520 Nok</p>
+              <p>Furious 480 Nok</p>
+              <hr class="payment-info-hr" />
+              <p><strong>TOTAL: 1420 Nok</strong></p>
+              <hr class="payment-info-hr" />
+            </div>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/558153e5d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

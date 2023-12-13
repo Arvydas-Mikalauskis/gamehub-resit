@@ -1,0 +1,344 @@
+@media (max-width: 1033px) {
+  .promo-game-of-month-container {
+    gap: 0px;
+  }
+
+  .become-member-text {
+    top: 100px;
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 922px) {
+  .header {
+    height: 80vh;
+  }
+
+  .header-text {
+    font-size: 1rem;
+    left: 100px;
+  }
+
+  .new-releases-games,
+  .best-sellers,
+  .game-genre {
+    padding: 0px;
+  }
+
+  .new-releases-games img,
+  .best-sellers img,
+  .game-genre img {
+    width: 160px;
+  }
+
+  .become-member img {
+    width: 65%;
+    height: 340px;
+  }
+
+  .become-member-text {
+    padding: 4px;
+    top: 80px;
+  }
+
+  .landing-page-filler-section {
+    width: 100%;
+  }
+
+  .promo-game-of-month-container {
+    gap: 50px;
+  }
+
+  .game-of-month img {
+    width: 200px;
+  }
+
+  .game-of-month h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 963px) {
+  .product-description-img img {
+    height: 360px;
+  }
+
+  .product-desciption {
+    padding: 12px;
+  }
+
+  .screenshots img {
+    width: 90%;
+    height: auto;
+  }
+
+  .shopping-cart {
+    width: 100%;
+  }
+
+  .product-in-desciption p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 812px) {
+  .header,
+  .header-products {
+    height: 60vh;
+  }
+
+  .header-text {
+    width: 100%;
+    top: 140px;
+    left: 0;
+    font-size: 1.2rem;
+  }
+
+  .become-member img {
+    width: 100%;
+  }
+
+  .become-member-text {
+    width: 100%;
+    padding: 12px 0px;
+  }
+
+  .character-img {
+    width: 420px;
+  }
+
+  .product-desciption {
+    margin-left: 0px;
+    gap: 0px;
+  }
+
+  .product-container {
+    margin-left: 0px;
+    padding-left: 12px;
+  }
+
+  .payment-methods {
+    font-size: 0.8rem;
+    padding: 8px 22px;
+    flex-direction: column;
+  }
+
+  .product-in-desciption {
+    margin-left: 0px;
+    gap: 0;
+  }
+
+  .product-in-desciption h2 {
+    font-size: 1.3rem;
+  }
+
+  .checkout-form {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 725px) {
+  .product-desciption p {
+    font-size: 0.9rem;
+  }
+
+  #product-buy-btn {
+    width: auto;
+    padding: 6px;
+  }
+
+  strong {
+    font-size: 1rem;
+  }
+
+  .product-desciption {
+    padding: 4px;
+  }
+
+  #single-product-footer {
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 663px) {
+  .new-releases-games,
+  .best-sellers,
+  .game-genre {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .new-releases-games img,
+  .best-sellers img,
+  .game-genre img {
+    width: 220px;
+  }
+
+  .promo-game-of-month-container {
+    gap: 0px;
+  }
+
+  .character-img {
+    width: 360px;
+  }
+
+  .product-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .product-description-img img {
+    width: 50%;
+    margin: 8px auto;
+  }
+
+  .product-desciption {
+    padding: 12px;
+  }
+
+  .product-description-in-cart-img {
+    margin: 10px auto;
+  }
+
+  .product-description-in-cart-img img {
+    height: 380px;
+  }
+
+  .checkout-payment-last-info {
+    align-items: center;
+  }
+
+  .checkout-payment-last-info p {
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 548px) {
+  .header,
+  .header-products {
+    height: 40vh;
+  }
+
+  .header-text {
+    font-size: 1rem;
+    top: 55px;
+  }
+
+  .character-img {
+    display: none;
+  }
+
+  .game-of-month {
+    margin: 0 auto;
+  }
+
+  .game-of-month img {
+    width: 220px;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+
+  .footer .soc-icons {
+    left: 20px;
+    top: 40px;
+  }
+
+  .footer-links {
+    left: 0;
+  }
+
+  .checkout-payment-last-info p {
+    padding: 2px 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 433px) {
+  .new-releases-games img,
+  .best-sellers img,
+  .game-genre img {
+    width: 280px;
+  }
+
+  .become-member img {
+    height: 380px;
+  }
+
+  .become-member-text {
+    padding: 0px;
+  }
+
+  .become-member-text p {
+    padding: 4px 8px;
+  }
+
+  .landingPageMain h2 {
+    padding-left: 14px;
+  }
+
+  .landingPageMain h3 {
+    padding-left: 10px;
+  }
+
+  .footer-links a {
+    padding: 4px;
+  }
+
+  .fa-brands {
+    padding: 0px 12px;
+  }
+
+  .product-description-in-cart-img img {
+    height: 340px;
+  }
+}
+
+/* Nav bar for mobile  */
+
+.fa-bars {
+  color: rgb(255, 211, 246);
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 656px) {
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    padding: 14px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #menu-toggle:checked + .hamburger-menu + ul {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    align-items: center;
+    background-color: rgba(3, 3, 3, 0.7);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 412px) {
+  nav a {
+    font-size: 0.7rem;
+  }
+}
